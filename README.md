@@ -32,4 +32,4 @@ Abra o navegador e acesse http://localhost:3000.
 
 
 ## Screenshots
-![testando](C:\Users\USER\OneDrive\ia.png)
+![testando](C:\Users\USER\OneDrive\Imagens/ia.png)
