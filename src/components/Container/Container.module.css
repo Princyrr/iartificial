@@ -1,0 +1,30 @@
+/* Estiliza o container principal */
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+    
+  }
+  
+  /* Estiliza a imagem */
+  .container img {
+    margin-top: 130px;
+    width: 100%; /* Ocupa 90% da largura da tela */
+  
+    height: 500px; /* Mantém a proporção original */
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    
+  }
+  
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container img {
+      width: 95%; /* Aumenta a largura em telas menores */
+    }
+  }
+  

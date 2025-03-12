@@ -1,0 +1,86 @@
+
+.titulo {
+    margin-top: 200px; /* Espaço entre o Header e o título */
+    text-align: center;
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 30px; /* Espaço entre o título e o formulário */
+  }
+  
+  .contatoContainer {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid rgb(40, 224, 215);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #045c63;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #15d4d4;
+  }
+  .mainContent {
+    flex-grow: 1; /* Isso permite que o conteúdo cresça e ocupe o restante da altura */
+    padding-bottom: 60px; /* Adiciona espaço abaixo para o Footer não sobrepor o conteúdo */
+  }
+
+/* Garantindo que o body ocupe toda a altura da tela */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Estilo do footer */
+footer {
+  background-color: #333;
+  color: white;
+ 
+  text-align: center;
+  width: 94%;
+  
+}

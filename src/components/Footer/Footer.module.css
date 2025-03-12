@@ -1,0 +1,51 @@
+/* Estilos principais do footer */
+footer {
+    background: linear-gradient(45deg,  #132d33, #06c1f0) ; /* Gradiente de cores */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 30px;
+    
+  }
+  
+  /* Corpo da página com flexbox */
+  body, html {
+    height: 100%; /* Altura total da tela */
+    margin: 0;
+   
+  }
+  
+  main {
+    flex: 1; /* O conteúdo principal vai crescer para preencher a altura disponível */
+  }
+  
+  /* Estilo do texto do footer */
+  footer p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    transition: transform 0.1s ease;
+  }
+
+  
+  
+  /* Efeito de zoom no texto do footer */
+  footer p:hover {
+   color: aqua;
+  }
+  
+  /* Estilo responsivo para telas menores */
+  @media (max-width: 768px) {
+    footer {
+      padding: 15px 20px;
+    }
+  
+    footer p {
+      font-size: 1rem;
+    }
+  }
+  
