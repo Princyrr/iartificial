@@ -30,6 +30,3 @@ Inicie o servidor local:
   
 Abra o navegador e acesse http://localhost:3000.
 
-
-## Screenshots
-![testando](C:\Users\USER\OneDrive\Imagens/ia.png)
