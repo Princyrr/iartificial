@@ -46,5 +46,7 @@ Abra o navegador e acesse: http://localhost:3000
 Caso tenha interesse em saber mais ou colaborar, entre em contato:
 
 📧 [Email](mailto:princyrpiress@email.com)
+
 💼 [LinkedIn](https://www.linkedin.com/in/priscila-pires-171617128/)  
+
 🐙 [GitHub](https://github.com/Princyrr)
