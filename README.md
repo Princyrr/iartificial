@@ -17,7 +17,6 @@ Este é um projeto de front-end desenvolvido com **HTML, CSS, JavaScript** e **R
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/Princyrr/iartificial.git
 
 
